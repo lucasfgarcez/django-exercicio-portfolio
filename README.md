@@ -30,3 +30,14 @@ Criar um site simples utilizando Django para reforçar conceitos de:
 
 5. Rode o servidor:
 ```python manage.py runserver```
+
+## 📸 Páginas do Projeto
+
+### 🏠 Página Inicial
+![Início](images/home.PNG)
+
+### 📄 Página Projetos
+![Projetos](images/projects.PNG)
+
+### 📞 Página Contato
+![Contato](images/contact.PNG)
