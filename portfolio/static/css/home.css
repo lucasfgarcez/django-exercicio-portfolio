@@ -1,0 +1,56 @@
+#profile-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px 0px 30px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_pic {
+    width: 200px;          /* ou % */
+    aspect-ratio: 1 / 1;   /* garante proporção quadrada */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.profile_text h1 {
+    margin: 0;
+}
+
+#aboutme-container {
+    margin: 10px 15% 10px 15%;
+}
+
+
+@media screen and (max-width: 480px) {
+    #profile-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile_text h1 {
+        align-self: center;
+    }
+
+    .profile_text p {
+        text-align: center;
+    }
+
+    #aboutme-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10% 10px 10%;
+    }
+
+    #aboutme-container p {
+        text-align: center;
+    }
+}

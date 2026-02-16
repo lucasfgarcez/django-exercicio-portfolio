@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="static/css/home.css">
+{% endblock %}
+
+{% block title %}Meu Portfolio{% endblock %}
+
+{% block content %}
+<main>
+    <section id="profile-container">
+        <img class="profile_pic" src="static/img/foto-perfil.jpg" alt="Foto do perfil">
+        <div class="profile_text">
+            <h1>Meu Portfolio</h1>
+            <p>Este site é meu portfolio, criado no framework Django em Python.</p>
+        </div>
+    </section>
+
+    <section id="aboutme-container">
+        <h1>Sobre mim</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur tempor sollicitudin risus, vulputate dignissim orci.
+            Phasellus eget eleifend sapien. Duis euismod venenatis bibendum.
+            Mauris vehicula leo nec ligula scelerisque, eu pharetra sem tempor.
+            Morbi ut ipsum at nisl scelerisque fermentum.</p>
+    </section>
+</main>
+{% endblock %}

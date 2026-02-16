@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<link rel="stylesheet" href="/static/css/projects.css">
+{% endblock %}
+
+{% block title %}Projetos{% endblock %}
+
+{% block content %}
+<main>
+    <h1>Meus projetos</h1>
+    <section id="projects-container">
+        <div class="project-card">
+            <h2>Projeto 1</h2>
+            <p>Aqui vai a descrição do projeto 1.</p>
+            <a href="https://www.linkedin.com/in/lucasfgarcez/" target="_blank"><b>Link para GitHub</b></a>
+        </div>
+
+        <div class="project-card">
+            <h2>Projeto 2</h2>
+            <p>Aqui vai a descrição do projeto 2.</p>
+            <a href="https://www.linkedin.com/in/lucasfgarcez/" target="_blank"><b>Link para GitHub</b></a>
+        </div>
+
+        <div class="project-card">
+            <h2>Projeto 3</h2>
+            <p>Aqui vai a descrição do projeto 3.</p>
+            <a href="https://www.linkedin.com/in/lucasfgarcez/" target="_blank"><b>Link para GitHub</b></a>
+        </div>
+    </section>
+</main>
+{% endblock %}
